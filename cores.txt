@@ -1,0 +1,48 @@
+azul = #2941AB
+verde = #1ED760
+verde escuro = #039651
+cinza= #919496
+
+fundo = #19E68C
+segundo fundo = #222326
+cor = #20AB54 
+cor2 = #1D75DE
+preto = #191414
+cinza = #EFEFEF
+
+
+
+suporte
+
+cores das opçoes - 
+
+#AF2896
+
+#8C1932
+
+#B06239
+
+#006450
+
+#757575
+
+#537AA1
+
+gradient -
+
+#19803E
+
+#154D29
+
+#14251A
+
+#121212
+
+#121212
+
+
+
+fundo cinza - #232323
+
+botao - #1ED760
+

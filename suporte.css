@@ -1,0 +1,461 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #19803E, #154D29, #14251A, #121212 11%);
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+}
+
+#cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.spot {
+    width: 150px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.links p {
+    color: white;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #1ED741;
+    transition: 0.1s;
+}
+
+#conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#primeiro-conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+
+.login h1 {
+    font-size: 65px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.login p {
+    font-size: 21px;
+    font-weight: bold;
+    color: #919496;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#primeiro-conteudo a {
+    color: white;
+}
+
+.busca {
+    width: 600px;
+    height: 50px;
+    border: none;
+    margin-top: 25px;
+}
+
+.busca:hover {
+    border: none;
+}
+
+::placeholder {
+    font-size: 17px;
+    padding-left: 20px;
+}
+
+.ajuda a {
+    text-decoration: none;
+}
+
+.ajuda {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: wheat;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.pagamento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+    background-color: #AF2896;
+    color: white;
+    width: 190px;
+    height: 90px;
+    border-radius: 5px;
+    flex-basis: 30%;
+    flex-grow: 1;
+}
+
+.plano {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+    background-color: #8C1932;
+    color: white;
+    width: 190px;
+    height: 90px;
+    border-radius: 5px;
+    flex-basis: 30%;
+    flex-grow: 1;
+}
+
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+    background-color: #B06239;
+    color: white;
+    width: 190px;
+    height: 90px;
+    border-radius: 5px;
+    flex-basis: 30%;
+    flex-grow: 1;
+}
+
+.dispositivo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+    background-color: #006450;
+    color: white;
+    width: 190px;
+    height: 90px;
+    border-radius: 5px;
+    flex-basis: 30%;
+    flex-grow: 1;
+}
+
+.seguranca {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+    background-color: #757575;
+    color: white;
+    width: 190px;
+    height: 90px;
+    border-radius: 5px;
+    flex-basis: 30%;
+    flex-grow: 1;
+}
+
+.conta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+    background-color: #537AA1;
+    color: white;
+    width: 190px;
+    height: 90px;
+    border-radius: 5px;
+    flex-basis: 30%;
+    flex-grow: 1;
+}
+
+#segundo-conteudo {
+    background-color: #232323;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 99vw;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.ajuda-rapida{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 600px;
+    gap: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.ajuda-rapida h2 {
+    padding-bottom: 10px;
+}
+
+.ajuda-rapida a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.ajuda-rapida a:hover {
+    text-decoration: underline;
+}
+
+
+.visite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 600px;
+    padding-bottom: 100px;
+}
+
+.visite h1 {
+    font-size: 45px;
+    color: white;
+}
+
+.visite p {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+.btn {
+    font-weight: bolder;
+    background-color: #1ED760;
+    height: 52px;
+    color: black;
+    width: 250px;
+    border-radius: 50px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transform: translate(-1%, -1%);
+    font-size: 13.5px;
+}
+
+.rodape {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.rodape h2 {
+    font-size: 15px;
+    color: #919496;
+}
+
+.rodape2 a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.rodape a:hover {
+    color: #1ED741;
+    transition: 0.1s;
+}
+
+.rodapep {
+    line-height: 40px;
+    padding-bottom: 100px;
+}
+
+.redes {
+    width: 23px;
+    background-color: #222326;
+    padding: 15px;
+    margin: 0 5px;
+    border-radius: 45%;
+}
+
+.rodape2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 70px;
+}
+
+.rodape3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.rodape3 a {
+    font-size: 12px;
+    color: #919496;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.rodape3 p {
+    font-size: 12px;
+    color: #919496;
+    padding: 0 10px;
+    margin-left: 250px;
+}
+
+@media screen and (max-width: 760px) {
+
+    #cabecalho {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .menu {
+        padding-bottom: 20px;
+    }
+
+    #primeiro-conteudo {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 470px;
+    }
+
+    .login {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .login h1 {
+        font-size: 45px;
+        color: white;
+        padding-bottom: 30px;
+    }
+    
+    .login p {
+        font-size: 18px;
+        font-weight: bold;
+        color: #919496;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .busca {
+        width: 396px;
+    }
+
+    .ajuda {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-basis: 90%;
+    }
+
+
+    #segundo-conteudo {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 480px;
+    }
+
+    .ajuda-rapida {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+
+    #terceiro-conteudo {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 480px;
+    }
+
+    .visite {
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    .visite h1 {
+        font-size: 30px;
+    }
+
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .spot {
+        width: 100px;
+    }
+
+    .rodapep {
+        padding-bottom: 40px;
+    }
+
+    .rodape2 {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .rodape3 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rodape a {
+        margin-top: 30px;
+    }
+
+    .rodape3 p {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+}

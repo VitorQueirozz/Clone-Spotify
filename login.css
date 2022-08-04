@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+#cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    width: 212px;
+}
+
+#conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.151);
+    padding-top: 42px;
+}
+
+.conteudo-btn p {
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.conteudo-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+[type="button"] {
+    width: 450px;
+    height: 48px;
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+[type="button"]:hover {
+    border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.face {
+    background-color: #3B5998;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.apple {
+    background-color: #191919;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.btn-simples {
+    font-weight: bolder;
+    color: #6E6E6E;
+    letter-spacing: 2px;
+}
+
+/*conteudo-form*/
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    font-weight: bold;
+    flex: 0.3 1 0%;
+    text-align: center;
+}
+
+hr {
+    flex: 1 1 0%;
+    border-top: 1px solid rgb(217, 218, 220);
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.senha {
+    width: 450px;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.356);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.senha:hover {
+    border: 1px solid rgba(0, 0, 0, 0.651);
+}
+
+.form-email {
+    padding-top: 30px;
+    padding-bottom: 12px;
+}
+
+.email {
+    width: 450px;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.356);
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.email:hover {
+    border: 1px solid rgba(0, 0, 0, 0.651);
+}
+
+::placeholder {
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 10px;
+    color: #6E6E6E;
+}
+
+.paragr {
+    margin-bottom: 10px;
+}
+
+
+.form-lembra {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form-lembra a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.form-lembra a:hover {
+    text-decoration: underline;
+}
+
+.form-lembra label {
+    font-size: 13px;
+    font-weight: normal;
+    color: black;
+    margin-top: 20px;
+}
+
+.entrar {
+    width: 150px;
+    font-size: 14px;
+    background-color: #1ED760;
+    color: black;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.entrar:hover {
+    font-size: 15px;
+    border: none;
+    transform: translate(-1px, -1px);
+    background-color: #2DE26D;
+}
+
+.conteudo-inscreve {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.151);
+    padding-top: 30px;
+}
+
+.conteudo-inscreve p {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.btn-inscre {
+    color: #6E6E6E;
+    font-weight: bolder;
+}
+
+@media screen and (max-width:700px) {
+    #cabecalho {
+        padding: 0px;
+    }
+
+    #conteudo {
+        padding-top: 20px;
+    }
+
+    .conteudo-btn p {
+        font-size: 14px;
+    }
+
+    .logo {
+        width: 170px;
+    }
+
+    .form-lembra {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .entrar {
+        width: 450px;
+    }
+}

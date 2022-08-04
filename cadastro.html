@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscreva-se - Spotify</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+</head>
+<body>
+    <header id="cabecalho">
+        <img src="imagens/spoti.png" alt="">
+    </header>
+    <main id="conteudo">
+        <section class="conteudo-btn">
+            <h1>Inscreva-se grátis e comece a curtir.</h1>
+            <div>
+                <input class="simples-btn" type="button" value="Inscreva-se com o Facebook"><br>
+                <input type="button" value="Inscreva-se com o Google">
+            </div>
+        </section>
+        <section class="conteudo-form">
+            <div class="linha">
+                <hr>
+                <span> ou </span>
+                <hr>
+            </div>
+            <div class="formu">
+                <p><label for="email">Qual é o seu e-mail?</label></p>
+                <input class="email" type="email" name="email" id="email" placeholder="Insira seu e-mail.">
+                <p class="linktel"><a href="#">Usar número de telefone</a></p>
+            </div>
+            <div class="formu">
+                <p><label for="emaill">Confirme seu e-mail?</label></p>
+                <input class="emaill" type="email" name="email" id="emaill" placeholder="Insira o e-mail novamente.">
+            </div>
+            <div class="formu">
+                <p><label for="senha">Crie uma senha</label></p>
+                <input class="senha" type="password" name="senha" id="senha" placeholder="Crie uma senha.">
+            </div>
+            <div class="formu">
+                <p><label for="nome">Como devemos chamar você?</label></p>
+                <input class="nome" type="text" name="nome" id="nome" placeholder="Insira um nome de perfil.">
+                <p class="prg">Isso será exibido no seu perfil.</p>
+            </div>
+            <div class="formu">
+                <p><label for="data">Qual a sua data de nascimento?</label></p>
+                <input class="data" type="date" name="data" id="data">
+            </div>
+            <div class="genero">
+                <p>Qual é o seu gênero?</p>
+                <div class="generoradi">
+                    <input type="radio" name="radsex" id="masc">
+                    <label for="masc">Masculino</label>
+                    <input type="radio" name="radsex" id="femi">
+                    <label for="femi">Feminino</label>
+                    <input type="radio" name="radsex" id="bina">
+                    <label for="bina">Não binário</label>
+                </div>
+                <div class="check">
+                    <input type="checkbox" name="check" id="check">
+                    <label for="check">Não quero receber mensagens de marketing do Spotify</label>
+                </div>
+                <div class="check">
+                    <input type="checkbox" name="check" id="check2">
+                    <label for="check2">Compartilhar meus dados cadastrais com os provedores de conteúdo do Spotify para fins de marketing.</label>
+                </div>
+                <div class="check">
+                    <input type="checkbox" name="check" id="check3">
+                    <label for="check3">Eu concordo com os <a href="#">Termos e Condições de Uso do Spotify.</a></label>
+                </div>
+            </div>
+        </section>
+        <section class="conteudo-inscreva">
+            <p class="prg-final1">Para saber mais sobre como o Spotify coleta, utiliza, compartilha e protege seus dados pessoais, leia a <a href="">Política de Privacidade do Spotify.</a></p>
+            <input class="btn-entrar" type="button" value="Inscreva-se">
+            <p class="prg-final2">Já tem uma conta? <a href="">Faça login.</a></p>
+        </section>
+    </main>
+</body>
+</html>

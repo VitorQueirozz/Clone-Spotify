@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+#cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+img {
+    width: 155px;
+}
+
+#conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+.conteudo-btn h1 {
+    font-size: 28px;
+    font-weight: bolder;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+
+[type="button"] {
+    font-size: 16px;
+    font-weight: bold;
+    color: #6E6E6E;
+    background: transparent;
+    width: 400px;
+    height: 48px;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+[type="button"]:hover {
+    font-size: 18px;
+    transform: translate(-1%, -1%);
+    cursor: pointer;
+}
+
+.simples-btn {
+    margin-bottom: 20px;
+    background-color:  #3B5998;
+    color: white;
+}
+
+.conteudo-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+span {
+    color: #6E6E6E;
+    flex: 0.3 1 0%;
+    text-align: center;
+}
+
+hr {
+    width: 180px;
+    flex: 1 1 0%;
+    border-top: 1px solid rgb(217, 218, 220);
+}
+
+.formu {
+    padding-bottom: ;
+}
+
+.email,.emaill, .senha, .nome, .data{
+    width: 450px;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.534);
+    margin-top: 10px;
+}
+
+.email:hover, .emaill:hover, .senha:hover, .nome:hover, .data:hover {
+    border: 1px solid black;
+}
+
+.emaill, .senha, .data {
+    margin-bottom: 20px;
+}
+
+.formu label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.linktel a {
+    color: #1ED760;
+    font-size: 13px;
+}
+
+.linktel { 
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+
+.prg {
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+::placeholder {
+    font-size: 15px;
+    padding-left: 15px;
+    color: #5e6970;
+}
+
+.genero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 450px;
+}
+
+.genero input {
+    margin: 0 1px;
+}
+
+.genero label {
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+.genero p{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.generoradi {
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.check {
+    margin-bottom: 35px;
+}
+
+.check a {
+    color: #1ED760;
+}
+
+.check a:hover {
+    color: #2DE26D;
+}
+
+.conteudo-inscreva {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    margin-bottom: 200px;
+}
+
+.prg-final1 {
+    font-size: 12px;
+    text-indent: 20px;
+    line-height: 17px;
+    margin-bottom: 15px;
+}
+
+.conteudo-inscreva a {
+    color: #1ED760;
+}
+
+.conteudo-inscreva a:hover {
+    color: #2DE26D;
+}
+
+.btn-entrar {
+    color: black;
+    background-color: #1ED760;
+    border: none;
+    width: 200px;
+    height: 55px;
+    margin-bottom: 25px;
+}
+
+.btn-entrar:hover {
+    background-color: #2DE26D;
+}
+
+.prg-final2 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+@media screen and (max-width:1000px) {
+    img {
+        width: 120px;
+    }
+
+    .conteudo-btn h1 {
+        font-size: 26px;
+    }
+
+    [type="button"] {
+        width: 320px;
+    }
+
+    .email,.emaill, .senha, .nome, .data {
+        width: 400px;
+    }
+
+    .genero {
+        width: 400px;
+    }
+
+    .conteudo-inscreva {
+        width: 400px;
+        margin-bottom: 155px;
+    }
+
+    .btn-entrar {
+        width: 200px;
+    }
+}

@@ -1,0 +1,538 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cabecalho {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.spot {
+    width: 150px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.links p {
+    color: white;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #1ED741;
+    transition: 0.1s;
+}
+
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+.primeiro-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1D75DE;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.cont1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    width: 1200px;
+}
+
+.cont1 h1 {
+    font-size: 38px;
+    padding-bottom: 30px;
+}
+
+.cont1 h2 {
+    font-weight: normal;
+    font-size: 23px;
+    padding-bottom: 30px;
+}
+
+[type="button"] {
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: transparent;
+}
+
+[type="button"]:hover {
+    transform: translate(-1%, -1%);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn1 {
+    background-color: #191414;
+    font-weight: bolder;
+}
+
+.btn1:hover {
+    background-color: black;
+}
+
+.btn2 {
+    border: 2px solid white;
+    font-weight: bolder;
+}
+
+.btn2:hover {
+    background-color: #247ce7;
+}
+
+.cont1 p {
+    color: white;
+    font-size: 11px;
+    margin-top: 40px;
+}
+
+.cont1 a {
+    color: white;
+}
+
+.segundo-conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.segundo-conteudo h1 {
+    font-size: 35px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.opcao {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    width: 1200px;
+}
+
+.img1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.prg-segundo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.prg1 {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.prg2 {
+    font-size: 15px;
+}
+
+.terceiro-conteudo {
+    background-color: #EFEFEF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.cont2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+}
+
+.cont2 h1 {
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+
+.cont2 p {
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+
+.cont3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 1200px;
+}
+
+.plano {
+    width: 220px;
+    height: 750px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.055);
+    list-style-position: inside;
+    padding: 20px;
+    margin-bottom: 130px;
+}
+
+.cont3prg {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    background-color: #1D75DE;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 160px;
+    height: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.cont3prgg {
+    border: 1px solid #1D75DE;
+    height: 8px;
+    color: #1D75DE;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.plano h2 {
+    padding-bottom: 5px;
+}
+
+.plano p {
+    padding-bottom: 15px;
+}
+
+.plano ul {
+    padding-top: 20px;
+    height: 350px;
+}
+
+.plano li {
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+
+li {
+    list-style-image: url('imagens/2714.png');
+}
+
+.plano input {
+    background-color: black;
+    width: 220px;
+    font-weight: bold;
+}
+
+.termos {
+    font-size: 12px;
+    color: #5d6569;
+    padding: 15px 0;
+}
+
+.termos a {
+    color: #5d6569;
+}
+
+.rodape {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.rodape h2 {
+    font-size: 15px;
+    color: #919496;
+}
+
+.rodape2 a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.rodape a:hover {
+    color: #1ED741;
+    transition: 0.1s;
+}
+
+.rodapep {
+    line-height: 40px;
+    padding-bottom: 100px;
+}
+
+.redes {
+    width: 23px;
+    background-color: #222326;
+    padding: 15px;
+    margin: 0 5px;
+    border-radius: 45%;
+}
+
+.rodape2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 70px;
+}
+
+.rodape3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.rodape3 a {
+    font-size: 12px;
+    color: #919496;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.rodape3 p {
+    font-size: 12px;
+    color: #919496;
+    padding: 0 10px;
+    margin-left: 250px;
+}
+
+@media screen and (max-width: 1200px) {
+
+    #cabecalho {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .menu {
+        padding-bottom: 20px;
+    }
+
+    .cont1 {
+        padding: 0 10px;
+        width: 470px;
+    }
+
+    .cont1 h1 {
+        font-size: 28px;
+    }
+
+    .cont1 h2 {
+        font-size: 18px;
+    }
+
+    .cont1 p {
+        font-size: 11px;
+    }
+
+    .btn {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .btn1 {
+        width: 460px;
+    }
+
+    .btn2 {
+        width: 460px;
+    }
+
+    .mes {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    .cont2 {
+        width: 470px;
+    }
+
+    .cont3 {
+        gap: 15px;
+        width: 470px;
+    }
+
+    .cont3prg {
+        border: px solid black;
+        margin-bottom: 10px;
+        background-color: #1D75DE;
+        color: white;
+        padding: 5px;
+        font-size: 13px;
+        font-weight: bold;
+        width: 160px;
+        height: 7px;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    .cont3prgg {
+        border: 1px solid #1D75DE;
+        height: 7px;
+        color: #1D75DE;
+        font-size: 13px;
+        font-weight: bold;
+        padding: 5px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    .segundo-conteudo h1 {
+        font-size: 28px;
+        font-weight: bolder;
+        padding-top: 38px;
+        padding-bottom: 25px;
+    }
+
+    .opcao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 60px;
+        width: 470px;
+    }
+
+    .img1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .prg-segundo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding-left: 15px;
+    }
+
+    .prg1 {
+        padding-top: 0px;
+        padding-bottom: 15px;
+    }
+
+    img {
+        width:100px;
+    }
+
+    .terceiro-conteudo {
+        padding-top: 30px;
+    }
+
+    .cont2 h1 {
+        font-size: 28px;
+        padding-top: 0px;
+    }
+
+    .cont3 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .plano{
+        width: 400px;
+        height: 520px;
+        margin-bottom: 0;
+    }
+
+    .plano ul {
+        height: 100px;
+    }
+
+
+    .plano input {
+        background-color: black;
+        width: 400px;
+        font-weight: bold;
+        margin-top: 90px;
+    }
+
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .spot {
+        width: 100px;
+    }
+
+    .rodapep {
+        padding-bottom: 40px;
+    }
+
+    .rodape2 {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .rodape3 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rodape a {
+        margin-top: 30px;
+    }
+
+    .rodape3 p {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+}
